@@ -32,8 +32,8 @@
                 loginUser = session.getAttribute("loginUser").toString();
             }
         %>
-        欢迎您<font color="red"><%=loginUser%></font>,登录成功！
-        欢迎您~
+        登录成功,欢迎<font color="red"><%=loginUser%></font>！
+
     </div>
 </div>
 </body>

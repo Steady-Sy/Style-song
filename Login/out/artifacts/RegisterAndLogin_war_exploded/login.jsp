@@ -28,7 +28,7 @@
         <form action="dologin.jsp" method="post">
             <p class="main">
                 <label>用户名: </label>
-                <input name="username" value="" />
+                <input  type="text" name="name" value="" />
                 <label>密码: </label>
                 <input type="password" name="password" value="">
             </p>
